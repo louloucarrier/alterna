@@ -1,0 +1,9 @@
+{
+"x": -100,
+"y": 24,
+"width": 200,
+"height": 20,
+"langKey": "jouer",
+"action": "connect_to_server",
+"data": "game401.azurhosts.com:26301"
+}

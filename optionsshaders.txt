@@ -1,0 +1,19 @@
+#Sun Aug 24 20:34:34 CEST 2025
+handDepthMul=0.125
+TexMinFilB=0
+oldLighting=true
+TexMagFilN=0
+tweakBlockDamage=false
+cloudShadow=false
+TexMagFilS=0
+shaderPack=Solas Shader V2.6.zip
+TexMinFilN=0
+specularMapEnabled=true
+normalMapEnabled=true
+renderResMul=1.0
+oldHandLight=false
+TexMinFilS=0
+shadowResMul=1.0
+shadowClipFrustrum=true
+TexMagFilB=0
+antialiasingLevel=0

@@ -1,0 +1,285 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.warden_wanderer_body",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "root",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "warden_wanderer_body",
+					"parent": "body",
+					"pivot": [0, 12, 0],
+					"cubes": [
+						{"origin": [-3, 12, -1.5], "size": [6, 4, 3], "uv": [0, 58]},
+						{"origin": [-4, 16, -2], "size": [8, 8, 4], "uv": [0, 45]}
+					]
+				},
+				{
+					"name": "spine",
+					"parent": "warden_wanderer_body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-4, 16, -2],
+							"size": [8, 8, 4],
+							"inflate": 0.25,
+							"uv": {
+								"east": {"uv": [24, 52], "uv_size": [4, 8]},
+								"south": {"uv": [40, 52], "uv_size": [8, 8]},
+								"west": {"uv": [36, 52], "uv_size": [4, 8]},
+								"up": {"uv": [28, 48], "uv_size": [8, 4]},
+								"down": {"uv": [36, 52], "uv_size": [8, -4]}
+							}
+						}
+					]
+				},
+				{
+					"name": "ribcage",
+					"parent": "warden_wanderer_body",
+					"pivot": [0, 21, -2]
+				},
+				{
+					"name": "ribcage_left",
+					"parent": "ribcage",
+					"pivot": [4, 21, -2.1],
+					"cubes": [
+						{
+							"origin": [-4, 16, -2],
+							"size": [8, 8, 4],
+							"inflate": 0.25,
+							"uv": {
+								"north": {"uv": [49, 52], "uv_size": [8, 8]}
+							}
+						}
+					]
+				},
+				{
+					"name": "ribcage_right",
+					"parent": "ribcage",
+					"pivot": [-4, 21, -2.1],
+					"cubes": [
+						{
+							"origin": [-4, 16, -2],
+							"size": [8, 8, 4],
+							"inflate": 0.25,
+							"uv": {
+								"north": {"uv": [57, 52], "uv_size": [-8, 8]}
+							}
+						}
+					]
+				},
+				{
+					"name": "arm_right",
+					"parent": "root",
+					"pivot": [-5, 22, 0]
+				},
+				{
+					"name": "warden_wanderer_arm_right",
+					"parent": "arm_right",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-7, 12, -2], "size": [3, 4, 4], "uv": [17, 76], "mirror": true},
+						{"origin": [-7.015, 21, -2], "size": [3, 4, 4], "uv": [17, 64], "mirror": true},
+						{"origin": [-6.015, 16, -1], "size": [2, 5, 2], "uv": [0, 69], "mirror": true},
+						{"origin": [-6.015, 16, -1], "size": [2, 5, 2], "inflate": 0.25, "uv": [0, 76], "mirror": true}
+					]
+				},
+				{
+					"name": "arm_right_extra",
+					"parent": "warden_wanderer_arm_right",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-7, 16, -2],
+							"size": [3, 1, 4],
+							"uv": {
+								"north": {"uv": [39, 84], "uv_size": [-3, 1]},
+								"east": {"uv": [43, 84], "uv_size": [-4, 1]},
+								"south": {"uv": [46, 84], "uv_size": [-3, 1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "arm_right_spikes",
+					"parent": "warden_wanderer_arm_right",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-7.015, 25, -2],
+							"size": [3, 2, 4],
+							"uv": {
+								"north": {"uv": [24, 73], "uv_size": [-3, 2]},
+								"east": {"uv": [28, 73], "uv_size": [-4, 2]},
+								"south": {"uv": [31, 73], "uv_size": [-3, 2]}
+							}
+						}
+					]
+				},
+				{
+					"name": "fist_right",
+					"parent": "warden_wanderer_arm_right",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-7, 10, -2], "size": [3, 2, 4], "uv": [28, 72], "mirror": true}
+					]
+				},
+				{
+					"name": "arm_left",
+					"parent": "root",
+					"pivot": [5, 22, 0]
+				},
+				{
+					"name": "warden_wanderer_arm_left",
+					"parent": "arm_left",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [4, 12, -2], "size": [3, 4, 4], "uv": [17, 76]},
+						{"origin": [4.015, 21, -2], "size": [3, 4, 4], "uv": [17, 64]},
+						{"origin": [4.015, 16, -1], "size": [2, 5, 2], "uv": [0, 69]},
+						{"origin": [4.015, 16, -1], "size": [2, 5, 2], "inflate": 0.25, "uv": [0, 76]}
+					]
+				},
+				{
+					"name": "arm_left_extra",
+					"parent": "warden_wanderer_arm_left",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [4, 16, -2],
+							"size": [3, 1, 4],
+							"uv": {
+								"north": {"uv": [36, 84], "uv_size": [3, 1]},
+								"south": {"uv": [43, 84], "uv_size": [3, 1]},
+								"west": {"uv": [39, 84], "uv_size": [4, 1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "arm_left_spikes",
+					"parent": "warden_wanderer_arm_left",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [4.015, 25, -2],
+							"size": [3, 2, 4],
+							"uv": {
+								"north": {"uv": [21, 73], "uv_size": [3, 2]},
+								"south": {"uv": [28, 73], "uv_size": [3, 2]},
+								"west": {"uv": [24, 73], "uv_size": [4, 2]}
+							}
+						}
+					]
+				},
+				{
+					"name": "fist_left",
+					"parent": "warden_wanderer_arm_left",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [4, 10, -2], "size": [3, 2, 4], "uv": [28, 72]}
+					]
+				},
+				{
+					"name": "leg_right",
+					"parent": "root",
+					"pivot": [-1.9, 12, 0]
+				},
+				{
+					"name": "warden_wanderer_leg_right",
+					"parent": "leg_right",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-3.9, 0, -2], "size": [4, 12, 4], "uv": [0, 84], "mirror": true}
+					]
+				},
+				{
+					"name": "foot_right",
+					"parent": "warden_wanderer_leg_right",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-3.9, 0.3, -2], "size": [4, 5, 4], "inflate": 0.5, "uv": [0, 100], "mirror": true}
+					]
+				},
+				{
+					"name": "warden_wanderer_leg_claws_right",
+					"parent": "foot_right",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-3.25, -0.2, -4.75],
+							"size": [0, 3.23, 2.25],
+							"uv": {
+								"east": {"uv": [19, 94], "uv_size": [-2, 3]}
+							}
+						},
+						{
+							"origin": [-0.75, -0.2, -4.75],
+							"size": [0, 3.23, 2.25],
+							"uv": {
+								"east": {"uv": [19, 94], "uv_size": [-2, 3]}
+							}
+						}
+					]
+				},
+				{
+					"name": "leg_left",
+					"parent": "root",
+					"pivot": [1.9, 12, 0]
+				},
+				{
+					"name": "warden_wanderer_leg_left",
+					"parent": "leg_left",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-0.1, 0, -2], "size": [4, 12, 4], "uv": [0, 84]}
+					]
+				},
+				{
+					"name": "foot_left",
+					"parent": "warden_wanderer_leg_left",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-0.1, 0.3, -2], "size": [4, 5, 4], "inflate": 0.5, "uv": [0, 100]}
+					]
+				},
+				{
+					"name": "warden_wanderer_leg_claws_left",
+					"parent": "foot_left",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [3.25, -0.2, -4.75],
+							"size": [0, 3.23, 2.25],
+							"uv": {
+								"west": {"uv": [17, 94], "uv_size": [2, 3]}
+							}
+						},
+						{
+							"origin": [0.75, -0.2, -4.75],
+							"size": [0, 3.23, 2.25],
+							"uv": {
+								"west": {"uv": [17, 94], "uv_size": [2, 3]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,750 @@
+{
+    "metadata_revision": 1,
+    "id": "FEB16-18 2025",
+    "availability": {
+        "after": "2025-02-16T00:00:00Z",
+        "until": "2025-02-19T00:00:00Z"
+    },
+    "pages": {
+        "5": {
+            "rows": [
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DEMONIC_CHARGE_UP",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DRAGON",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FIREFLIES",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "KISS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DEMONIC_AURA",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "HELLCASTLE_BLANCA_HAT",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DOUBLE_DEMONIC_OVERLORD_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "IMAGINATION_RAINBOW",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ASTRAL_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "SPIDER_CRAWL",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "BUNDLE",
+                        "bundle": "MISSY_MOO"
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DOUBLE_ANGEL_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "MINI_MOOSH",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DOG_EARS",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FLUSTERED",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "SPARKLE_TRAIL",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "GINGHAM_DRESS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "red"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "HOMER_DANCE",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "GUITAR_SHRED",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FLIPPIN_FANCY",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "BREAKDANCE",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "SIT_ON_FLOOR",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ENDER_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ANIMATRONIC_WINGS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "red"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "PASTEL_WINGS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "yellow"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DRAGON_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FAIRY_WINGS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "purple"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "TAUNT_DANCE",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "NARUTO_RUN",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "JUBI_SLIDE",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "TEMPEST_FLIGHT",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "MEDITATION_MODE",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "RACCOON",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "SHROOMLING",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "CAPYBARA",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "RAVEN",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DUCK",
+                        "settings": []
+                    }
+                ]
+            ],
+            "dividers": {}
+        },
+        "4": {
+            "rows": [
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DEMONIC_CHARGE_UP",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DRAGON",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FIREFLIES",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "KISS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DEMONIC_AURA",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "HELLCASTLE_BLANCA_HAT",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DOUBLE_DEMONIC_OVERLORD_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "IMAGINATION_RAINBOW",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ASTRAL_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "SPIDER_CRAWL",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "BUNDLE",
+                        "bundle": "MISSY_MOO"
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DOUBLE_ANGEL_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "MINI_MOOSH",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DOG_EARS",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FLUSTERED",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "SPARKLE_TRAIL",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "GINGHAM_DRESS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "red"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "HOMER_DANCE",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "GUITAR_SHRED",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FLIPPIN_FANCY",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "BREAKDANCE",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "SIT_ON_FLOOR",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ENDER_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ANIMATRONIC_WINGS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "red"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "PASTEL_WINGS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "yellow"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DRAGON_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FAIRY_WINGS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "purple"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "TAUNT_DANCE",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "NARUTO_RUN",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "JUBI_SLIDE",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "TEMPEST_FLIGHT",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "MEDITATION_MODE",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "RACCOON",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "SHROOMLING",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "CAPYBARA",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "RAVEN",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DUCK",
+                        "settings": []
+                    }
+                ]
+            ],
+            "dividers": {}
+        },
+        "3": {
+            "rows": [
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DEMONIC_CHARGE_UP",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DRAGON",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FIREFLIES",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "KISS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DEMONIC_AURA",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "HELLCASTLE_BLANCA_HAT",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DOUBLE_DEMONIC_OVERLORD_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "IMAGINATION_RAINBOW",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ASTRAL_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "SPIDER_CRAWL",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "BUNDLE",
+                        "bundle": "MISSY_MOO"
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DOUBLE_ANGEL_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "MINI_MOOSH",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DOG_EARS",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FLUSTERED",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "SPARKLE_TRAIL",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "GINGHAM_DRESS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "red"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "MINI_MOOSH",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "SPARKLE_TRAIL",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DOG_EARS",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "HOMER_DANCE",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "GUITAR_SHRED",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FLIPPIN_FANCY",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "BREAKDANCE",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "SIT_ON_FLOOR",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ENDER_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ANIMATRONIC_WINGS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "red"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "PASTEL_WINGS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "yellow"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DRAGON_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FAIRY_WINGS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "purple"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "TAUNT_DANCE",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "NARUTO_RUN",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "JUBI_SLIDE",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "TEMPEST_FLIGHT",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "MEDITATION_MODE",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "RACCOON",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "SHROOMLING",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "CAPYBARA",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "RAVEN",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DUCK",
+                        "settings": []
+                    }
+                ]
+            ],
+            "dividers": {}
+        }
+    }
+}

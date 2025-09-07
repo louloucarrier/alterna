@@ -1,0 +1,28 @@
+{
+  "name": "Alterna_lite",
+  "url": "",
+  "icon": "http://launcher/image/d56e3f90651bf7126c1be4dc6f37d4c1bc63bd51",
+  "runtime": {
+    "minecraft": "1.20.1",
+    "forge": "47.3.0",
+    "liteloader": "",
+    "fabricLoader": "",
+    "yarn": "",
+    "optifine": "",
+    "quiltLoader": "",
+    "neoForged": "",
+    "labyMod": ""
+  },
+  "java": "",
+  "version": "1.20.1-forge-47.3.0",
+  "server": null,
+  "author": "",
+  "description": "",
+  "lastAccessDate": 1757184320499,
+  "creationDate": 1757005531985,
+  "modpackVersion": "0.0.5",
+  "fileApi": "",
+  "tags": [],
+  "lastPlayedDate": 1757156517037,
+  "playtime": 55699625
+}

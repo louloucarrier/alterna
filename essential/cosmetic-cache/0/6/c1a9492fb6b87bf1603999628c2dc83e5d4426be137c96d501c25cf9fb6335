@@ -1,0 +1,756 @@
+{
+    "metadata_revision": 1,
+    "id": "FEB09-11 2025",
+    "availability": {
+        "after": "2025-02-09T00:00:00Z",
+        "until": "2025-02-12T00:00:00Z"
+    },
+    "pages": {
+        "5": {
+            "rows": [
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "KISS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DOUBLE_ANGEL_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "GRIDDY",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DOUBLE_DEMONIC_OVERLORD_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FLUSTERED",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FIREFLIES",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "IMAGINATION_RAINBOW",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ASTRAL_MAGIC",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DEMONIC_CHARGE_UP",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "MECH_WINGS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "pink"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "BUNDLE",
+                        "bundle": "ENDER_IMP"
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ENDER_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "MEDITATION_MODE",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DEMON_HORNS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "purple"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DRAGON",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ENDERMAN",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FIRE_FISTS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "purple"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "HEART_FIRE_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FROLICK",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "HEART_PARTICLES",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "HEART_FIRE_FISTS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ROSE_PETAL_PARTICLES",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ASTRAL_WINGS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "flame_red"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FAIRY_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "MAGMA_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FIRE_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "LITTLE_ANGEL_WINGS",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "SHUFFLE_DANCE",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ICE_POWERS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "JUBI_SLIDE",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "WORSHIP",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FROLICK",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "RACCOON",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "MINI_MOOSH",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "RAVEN",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DUCK",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "AXOLOTL",
+                        "settings": []
+                    }
+                ]
+            ]
+        },
+        "4": {
+            "rows": [
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "KISS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DOUBLE_ANGEL_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "GRIDDY",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DOUBLE_DEMONIC_OVERLORD_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FLUSTERED",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FIREFLIES",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "IMAGINATION_RAINBOW",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ASTRAL_MAGIC",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DEMONIC_CHARGE_UP",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "MECH_WINGS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "pink"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "BUNDLE",
+                        "bundle": "ENDER_IMP"
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ENDER_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "MEDITATION_MODE",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DEMON_HORNS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "purple"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DRAGON",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ENDERMAN",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FIRE_FISTS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "purple"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "HEART_FIRE_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FROLICK",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "HEART_PARTICLES",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "HEART_FIRE_FISTS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ROSE_PETAL_PARTICLES",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ASTRAL_WINGS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "flame_red"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FAIRY_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "MAGMA_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FIRE_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "LITTLE_ANGEL_WINGS",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "SHUFFLE_DANCE",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ICE_POWERS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "JUBI_SLIDE",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "WORSHIP",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FROLICK",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "RACCOON",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "MINI_MOOSH",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "RAVEN",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DUCK",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "AXOLOTL",
+                        "settings": []
+                    }
+                ]
+            ]
+        },
+        "3": {
+            "rows": [
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "KISS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DOUBLE_ANGEL_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "GRIDDY",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DOUBLE_DEMONIC_OVERLORD_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FLUSTERED",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FIREFLIES",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "IMAGINATION_RAINBOW",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ASTRAL_MAGIC",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DEMONIC_CHARGE_UP",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "MECH_WINGS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "pink"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "BUNDLE",
+                        "bundle": "ENDER_IMP"
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ENDER_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "MEDITATION_MODE",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DEMON_HORNS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "purple"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DRAGON",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ENDERMAN",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FIRE_FISTS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "purple"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "MEDITATION_MODE",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ENDERMAN",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DEMON_HORNS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "purple"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "HEART_FIRE_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FROLICK",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "HEART_PARTICLES",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "HEART_FIRE_FISTS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ROSE_PETAL_PARTICLES",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ASTRAL_WINGS",
+                        "settings": [
+                            {
+                                "type": "VARIANT",
+                                "id": null,
+                                "enabled": true,
+                                "data": {
+                                    "variant": "flame_red"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FAIRY_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "MAGMA_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FIRE_WINGS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "LITTLE_ANGEL_WINGS",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "SHUFFLE_DANCE",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "ICE_POWERS",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "JUBI_SLIDE",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "WORSHIP",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "FROLICK",
+                        "settings": []
+                    }
+                ],
+                [
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "RACCOON",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "MINI_MOOSH",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "RAVEN",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "DUCK",
+                        "settings": []
+                    },
+                    {
+                        "type": "COSMETIC",
+                        "cosmetic": "AXOLOTL",
+                        "settings": []
+                    }
+                ]
+            ]
+        }
+    }
+}

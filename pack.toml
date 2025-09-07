@@ -1,0 +1,13 @@
+name = "Alterna"
+author = "louloucarrier"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "29717f59452e70550092f8558ad20044d0f3e239c4a690419ff92e17af487a5f"
+
+[versions]
+forge = "47.3.0"
+minecraft = "1.20.1"

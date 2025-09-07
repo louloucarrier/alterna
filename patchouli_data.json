@@ -1,0 +1,24 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": true,
+  "bookData": {
+    "botania:lexicon": {
+      "viewedEntries": [
+        "botania:mana/spreader",
+        "botania:basics/wand",
+        "botania:basics/lexicon",
+        "botania:alfhomancy/intro",
+        "botania:tools/exchange_rod",
+        "botania:alfhomancy/elf_resources",
+        "botania:alfhomancy/relics",
+        "botania:alfhomancy/elven_lore",
+        "botania:alfhomancy/gaia_ritual",
+        "botania:alfhomancy/elf_message",
+        "botania:alfhomancy/infinite_fruit",
+        "botania:alfhomancy/odin_ring"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

@@ -1,0 +1,12 @@
+#Divisor for money you got from mob.
+#Default: 10 => money = mob health / 10
+divisor = 10.0
+#Minimum health of a hostile mob that can drop money.
+#Default: 20
+minHealth = 20
+#List of mob that couldn't drop money.
+blackList = []
+#List of mob that should drop money
+#The mob is not necessary to be hostile (you can add villager here).
+whiteList = []
+
