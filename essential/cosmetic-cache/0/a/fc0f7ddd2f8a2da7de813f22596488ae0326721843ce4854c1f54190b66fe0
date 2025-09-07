@@ -1,0 +1,51 @@
+{
+  "sound_definitions": {
+    "knuckle_walking_first_sound": {
+      "category": "hostile",
+      "max_distance": 32,
+      "sounds": [
+        {
+          "name": "sounds/knuckle_walking_first",
+          "is3D": true,
+          "interruptible": true
+        }
+      ]
+    },
+    "knuckle_walking_loop_sound": {
+      "category": "hostile",
+      "max_distance": 32,
+      "sounds": [
+        {
+          "name": "sounds/knuckle_walking_loop1",
+          "is3D": true,
+          "interruptible": true
+        },
+        {
+          "name": "sounds/knuckle_walking_loop2",
+          "is3D": true,
+          "interruptible": true
+        },
+        {
+          "name": "sounds/knuckle_walking_loop3",
+          "is3D": true,
+          "interruptible": true
+        },
+        {
+          "name": "sounds/knuckle_walking_loop4",
+          "is3D": true,
+          "interruptible": true
+        },
+        {
+          "name": "sounds/knuckle_walking_loop5",
+          "is3D": true,
+          "interruptible": true
+        },
+        {
+          "name": "sounds/knuckle_walking_loop6",
+          "is3D": true,
+          "interruptible": true
+        }
+      ]
+    }
+  }
+}

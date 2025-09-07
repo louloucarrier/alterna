@@ -1,0 +1,52 @@
+Logging started at 2025-09-05T15:30:13.460895600Z
+[authlib-injector] [INFO] Version: 1.2.5
+[authlib-injector] [INFO] Authentication server: https://authserver.ely.by/api/authlib-injector
+[authlib-injector] [DEBUG] Prefetched metadata detected
+[authlib-injector] [DEBUG] Metadata: {"meta":{"serverName":"Ely.by","implementationName":"Account Ely.by adapter for the authlib-injector library","implementationVersion":"1.0.0","links":{"homepage":"https://ely.by","register":"https://account.ely.by/register"},"feature.non_email_login":false},"signaturePublickey":"-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxgFJRb0e9fRyVG5+JlCg\nh0hccRIcgO5yxEVkMJajAI12Ev/Pc7lpTt6OtKTEcUNfjYgBnEhIKbdLD0Z+B5Bx\nSg9DQmozgzZcesScpASQb4Kt6P8itowdbgbUm4v+6x1QUKJjjmhHq93m9OIEbxQL\nCq+SrEMZpDrXRgd9DhNPjZv/95ximP8otvh7+bmEl8jwINgfJx0PAeJFYlceQcsh\niYh+LHtaIwzbTTqkDibDm7QiEc+/qGab3mABtVTpqw/refwFoR0M8+xkWF+1/D8k\nH0WFa+rBhdjLyLG+2hdOpKXoH/fMH0tQMPHU78J17JVKWwIWCwEWXp8HiWSbIt3a\ncmBYtyW3tqarFFMMECx2wmJP6FVOvYVThZxq9qc9/f3yeTGz3g7zU1YljHSVRP16\niEbEnHQBKxmrj2cdZgosJej4YppV7f3iZ8o8PF6UY51LSqvaCteXuWeYSJJESGAs\nUoV7ihJfWL8DymHamywB2Cahx7EiDGS3/iBcQUmpk4TTg2FrZPuKGItn1QfIRieO\nknnj9CPKiWdfOtJBr3i1FXLEfExgcJhQ00Y6B08QVvgiCzUF3t+VAG3Ef2YINYyG\nAXcW0TIgMalwwgGzdhQRhItODXptWigy0DNTUAgKQT9PS8N09yPBGxIq64T9A3/z\nFqC/k2bMLWUSVtIlilIItn0CAwEAAQ==\n-----END PUBLIC KEY-----\n","skinDomains":["ely.by",".ely.by"]}
+[authlib-injector] [DEBUG] Parsed metadata: APIMetadata [apiRoot=https://authserver.ely.by/api/authlib-injector/, skinDomains=[ely.by, .ely.by], decodedPublickey=Optional[Sun RSA public key, 4096 bits
+  params: null
+  modulus: 807790022816965906241819471885643260780583228954491158130320395513004138144964438149138329427253985535250878616388500006337362105677390058197538794042948317297877184078399241281895834938054102492955638954031602179112189463288578384103723831978682845567876857310103600931930918946015849711986399206244213927006131843171939287254068008616493592944405100360968855251899857099935738322481944630256515202746129116662048028532295674058272100965386694595378184560060479358192057939386282288013262029781732413086788087482160833038112888508065046062854600619041082526986581450006974816265900039467856783902866073441735344435583552477638158880195347896744728686942603032730067483674335051013472258663783976592953238921717939653092447027751422363337737296511605401257367966093866434250224371818170561328000341333664896714631374829635809581034968647774396926328438541266682598117371505463345939296020993686530306390280408531171056212110907522803230749928546675392353191605994307357201472808371175676797200394533182512573878857314789196842143528103533767656891185266726788320649160230851520798684998429330983302223345535957686948318452874199217037090442905361367653801638460081324465347263923303895741045328591556315106422683467665579548997105277
+  public exponent: 65537], meta={feature.non_email_login=false, implementationName=Account Ely.by adapter for the authlib-injector library, implementationVersion=1.0.0, links={"homepage":"https:\/\/ely.by","register":"https:\/\/account.ely.by\/register"}, serverName=Ely.by}]
+[authlib-injector] [INFO] Transformed [net.minecraft.client.main.Main] with [Main Arguments Transformer]
+[authlib-injector] [DEBUG] Adding callback metafactory
+[authlib-injector] [DEBUG] Original main arguments: --version 1.20.1-forge-47.3.0 --gameDir F:\.minecraftx\instances\Alterna_lite --assetsDir F:\.minecraftx\assets --uuid 186500b41ab141109088ddbd09da2f53 --username loulou1234 --assetIndex f82e00e6575beb66b18575a97c91125378e875bb --accessToken eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJpYXQiOjE3NTY5MTU4NDksInN1YiI6ImVseXw2NzkxNzAzIiwiZXhwIjoxNzU3MDg4NjQ5LCJzY29wZSI6Im9idGFpbl9vd25fYWNjb3VudF9pbmZvIG1pbmVjcmFmdF9zZXJ2ZXJfc2Vzc2lvbiIsImVseS1jbGllbnQtdG9rZW4iOiJfVmh6TE1DcDRjV2Z6cHZCOGlpelNZRTYzaUxIYUZqXzIwNS1lZXl2d1VkRFpSYzR2ckxtSFlsVy1SS1VhQWs2WENXcFBQQkc5VVVuYzdJTGNNZFhtNWJWU2xTbmZHM05kSUl4cUEifQ.jJvZi0XKTtZMqwwjmofa0_tbRauat_CAZ8VyFmTVXm71zXDrHVAeGfg2DnMG1NDD1cimpZ0ZieaDWUnEbiMEgQ --clientId ${clientid} --xuid ${auth_xuid} --userType msa --versionType release
+[authlib-injector] [DEBUG] Version series detected: f82e00e6575beb66b18575a97c91125378e875bb
+[authlib-injector] [DEBUG] Setting versionType to server name: Ely.by
+[authlib-injector] [DEBUG] Transformed main arguments: --version 1.20.1-forge-47.3.0 --gameDir F:\.minecraftx\instances\Alterna_lite --assetsDir F:\.minecraftx\assets --uuid 186500b41ab141109088ddbd09da2f53 --username loulou1234 --assetIndex f82e00e6575beb66b18575a97c91125378e875bb --accessToken eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJpYXQiOjE3NTY5MTU4NDksInN1YiI6ImVseXw2NzkxNzAzIiwiZXhwIjoxNzU3MDg4NjQ5LCJzY29wZSI6Im9idGFpbl9vd25fYWNjb3VudF9pbmZvIG1pbmVjcmFmdF9zZXJ2ZXJfc2Vzc2lvbiIsImVseS1jbGllbnQtdG9rZW4iOiJfVmh6TE1DcDRjV2Z6cHZCOGlpelNZRTYzaUxIYUZqXzIwNS1lZXl2d1VkRFpSYzR2ckxtSFlsVy1SS1VhQWs2WENXcFBQQkc5VVVuYzdJTGNNZFhtNWJWU2xTbmZHM05kSUl4cUEifQ.jJvZi0XKTtZMqwwjmofa0_tbRauat_CAZ8VyFmTVXm71zXDrHVAeGfg2DnMG1NDD1cimpZ0ZieaDWUnEbiMEgQ --clientId ${clientid} --xuid ${auth_xuid} --userType msa --versionType Ely.by
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.properties.Property] with [Yggdrasil Public Key Transformer]
+[authlib-injector] [DEBUG] Adding callback metafactory
+[authlib-injector] [INFO] Httpd is running on port 54718
+[authlib-injector] [DEBUG] Transformed url [http://skins.minecraft.net/MinecraftSkins/%s.png] to [http://127.0.0.1:54718/http/skins.minecraft.net/MinecraftSkins/%s.png]
+[authlib-injector] [DEBUG] Transformed url [http://skins.minecraft.net/MinecraftSkins/%s.png] to [http://127.0.0.1:54718/http/skins.minecraft.net/MinecraftSkins/%s.png]
+[authlib-injector] [INFO] Transformed [net.minecraft.client.player.AbstractClientPlayer] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [net.minecraft.client.main.Main] with [Main Arguments Transformer]
+[authlib-injector] [DEBUG] Adding callback metafactory
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService] with [Authlib Log Interceptor]
+[authlib-injector] [DEBUG] Adding callback metafactory
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.HttpAuthenticationService] with [Authlib Log Interceptor]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.HttpAuthenticationService] with [ConcatenateURL Workaround]
+[authlib-injector] [DEBUG] Adding callback metafactory
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.minecraft.UserApiService] with [Authlib Log Interceptor]
+[authlib-injector] [DEBUG] Adding callback metafactory
+[authlib-injector] [INFO] Registered log handler on cpw.mods.cl.ModuleClassLoader@2dc54ad4
+[authlib-injector] [DEBUG] Transformed url [https://authserver.mojang.com] to [https://authserver.ely.by/api/authlib-injector/authserver]
+[authlib-injector] [DEBUG] Transformed url [https://authserver.mojang.com] to [https://authserver.ely.by/api/authlib-injector/authserver]
+[authlib-injector] [DEBUG] Transformed url [https://api.mojang.com] to [http://127.0.0.1:54718/https/api.mojang.com]
+[authlib-injector] [DEBUG] Transformed url [https://sessionserver.mojang.com] to [http://127.0.0.1:54718/https/sessionserver.mojang.com]
+[authlib-injector] [DEBUG] Transformed url [https://api.minecraftservices.com] to [http://127.0.0.1:54718/https/api.minecraftservices.com]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilEnvironment] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo] with [Yggdrasil Public Key Transformer]
+[authlib-injector] [DEBUG] Adding callback metafactory
+[authlib-injector] [DEBUG] Request to [/https/api.minecraftservices.com/player/attributes] is handled by [moe.yushi.authlibinjector.httpd.AntiFeaturesFilter@7938cbc]
+[authlib-injector] [DEBUG] Request to [/https/api.minecraftservices.com/publickeys] is handled by [moe.yushi.authlibinjector.httpd.PublickeysFilter@28a02e58]
+[authlib-injector] [DEBUG] Request to [/https/api.minecraftservices.com/player/certificates] is handled by [moe.yushi.authlibinjector.httpd.ProfileKeyFilter@28a779f6]
+[authlib-injector] [DEBUG] Request to [/https/api.minecraftservices.com/privacy/blocklist] is handled by [moe.yushi.authlibinjector.httpd.AntiFeaturesFilter@7938cbc]
+[authlib-injector] [DEBUG] Transformed url [https://sessionserver.mojang.com/blockedservers] to [http://127.0.0.1:54718/https/sessionserver.mojang.com/blockedservers]
+[authlib-injector] [DEBUG] Transformed url [https://sessionserver.mojang.com/blockedservers] to [http://127.0.0.1:54718/https/sessionserver.mojang.com/blockedservers]
+[authlib-injector] [INFO] Transformed [com.mojang.patchy.MojangBlockListSupplier] with [Constant URL Transformer]
+[authlib-injector] [DEBUG] Request to [/https/sessionserver.mojang.com/blockedservers] is handled by [moe.yushi.authlibinjector.httpd.AntiFeaturesFilter@7938cbc]
+[authlib-injector] [DEBUG] Request to [/https/api.minecraftservices.com/privacy/blocklist] is handled by [moe.yushi.authlibinjector.httpd.AntiFeaturesFilter@7938cbc]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.TextureUrlChecker] with [Texture Whitelist Transformer]
+[authlib-injector] [DEBUG] Adding callback metafactory
+[authlib-injector] [DEBUG] Query profile of [f213b887-8a66-3cad-81e7-3c61d54c4f14] at [https://authserver.ely.by/api/authlib-injector/], not found
+[authlib-injector] [DEBUG] Request to [/https/sessionserver.mojang.com/session/minecraft/profile/f213b8878a663cad81e73c61d54c4f14] is handled by [moe.yushi.authlibinjector.httpd.QueryProfileFilter@5c10cb12]

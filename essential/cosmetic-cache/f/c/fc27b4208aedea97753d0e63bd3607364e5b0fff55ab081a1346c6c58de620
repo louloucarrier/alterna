@@ -1,0 +1,41 @@
+{
+  "sound_definitions": {
+    "lightning_powers_first_sound": {
+      "category": "hostile",
+      "max_distance": 32,
+      "sounds": [
+        {
+          "name": "sounds/lightning_powers_first",
+          "is3D": true,
+          "interruptible": true
+        }
+      ]
+    },
+    "lightning_powers_loop_sound": {
+      "category": "hostile",
+      "max_distance": 32,
+      "sounds": [
+        {
+          "name": "sounds/lightning_powers_loop1",
+          "is3D": true,
+          "interruptible": true
+        },
+        {
+          "name": "sounds/lightning_powers_loop2",
+          "is3D": true,
+          "interruptible": true
+        },
+        {
+          "name": "sounds/lightning_powers_loop3",
+          "is3D": true,
+          "interruptible": true
+        },
+        {
+          "name": "sounds/lightning_powers_loop4",
+          "is3D": true,
+          "interruptible": true
+        }
+      ]
+    }
+  }
+}
