@@ -1,0 +1,210 @@
+
+#Paramètres généraux
+[general]
+	#Enregistrera les clients qui se connectent avec Vivecraft ainsi que leur version de Vivecraft.
+	debug = false
+	#Vérifie les nouvelles versions du mod lorsqu’un OP se connecte au serveur et lui envoie un message système.
+	checkForUpdate = true
+	#Mises à jour à vérifier.
+	#r : Release, b : Beta, a : Alpha
+	checkForUpdateType = "r"
+	#Définir sur 'true' pour n’autoriser que les joueurs VR à rejoindre le serveur.
+	#Si activé, le changement rapide VR sera automatiquement désactivé.
+	vr_only = false
+	#Définir sur 'true' pour n’autoriser que les joueurs ayant Vivecraft installé à rejoindre le serveur.
+	vive_only = false
+	#Définir sur 'true' pour permettre aux OP du serveur de contourner les paramètres réservés aux joueurs VR/Vivecraft uniquement.
+	allow_op = true
+	#Secondes à attendre avant d’expulser un joueur ou d’envoyer les messages de bienvenue.
+	#Le client du joueur doit envoyer les informations de VERSION Vivecraft durant ce laps de temps.
+	# default: 10.00, min: 0.00, max: 100.00
+	messageAndKickDelay = 10.0
+	#Donne aux joueurs VR des gâteaux et boissons amusants au hasard, lorsqu’ils réapparaissent.
+	vrFun = true
+	#Envoie également les données de position du joueur au joueur qui les a envoyées, généralement inutile.
+	#Activez ceci sur un serveur dédié lorsque vous utilisez le mod replay ou un mod similaire.
+	sendDataToOwner = false
+
+#Configurer les messages envoyés lorsque les joueurs effectuent des actions spécifiques.
+#Laissez le message vide pour ne pas l’envoyer. Ex. : leaveMessage = ""
+#Utilisez '%s' dans un message pour le nom du joueur.
+#Pour les messages avec deux espaces réservés (ex. : mort par mob), utilisez '%1$s' pour le nom du joueur et '%2$s' pour le second espace réservé.
+[messages]
+	#Activer ou désactiver tous les messages.
+	enabled = false
+	#Message envoyé lorsqu’un joueur rejoint avec la VR activée.
+	welcomeVR = "%s has joined with standing VR!"
+	#Message envoyé lorsqu’un joueur rejoint sans la VR activée.
+	welcomeNonVR = "%s has joined with Non-VR companion!"
+	#Message envoyé lorsqu’un joueur rejoint en mode VR assis.
+	welcomeSeated = "%s has joined with seated VR!"
+	#Message envoyé lorsqu’un joueur rejoint sans Vivecraft installé.
+	welcomeVanilla = "%s has joined as a Muggle!"
+	#Message envoyé lorsqu’un joueur quitte le serveur.
+	leaveMessage = "%s has disconnected from the server!"
+	#Message envoyé lorsqu’un joueur meurt avec la VR activée.
+	deathVR = "%s died in standing VR!"
+	#Message envoyé lorsqu’un joueur meurt sans la VR activée.
+	deathNonVR = "%s died in Non-VR companion!"
+	#Message envoyé lorsqu’un joueur meurt en mode VR assis.
+	deathSeated = "%s died in seated VR!"
+	#Message envoyé lorsqu’un joueur meurt sans Vivecraft.
+	deathVanilla = "%s died as a Muggle!"
+	#Message envoyé lorsqu’un joueur meurt à cause d’un mob avec la VR activée.
+	deathByMobVR = "%1$s was slain by %2$s in standing VR!"
+	#Message envoyé lorsqu’un joueur meurt à cause d’un mob avec la VR désactivé.
+	deathByMobNonVR = "%1$s was slain by %2$s in Non-VR companion!"
+	#Message envoyé lorsqu’un joueur meurt à cause d’un mob avec la VR en mode assis.
+	deathByMobSeated = "%1$s was slain by %2$s in seated VR!"
+	#Message envoyé lorsqu’un joueur meurt à cause d’un mob sans Vivecraft.
+	deathByMobVanilla = "%1$s was slain by %2$s as a Muggle!"
+	#Message envoyé à un joueur lorsqu’il est expulsé à cause du paramètre « Vivecraft uniquement ».
+	KickViveOnly = "This server is configured for Vivecraft players only."
+	#Message envoyé à un joueur lorsqu’il est expulsé à cause du paramètre « VR uniquement ».
+	KickVROnly = "This server is configured for VR players only."
+
+#Modifications Vanilla pour les joueurs VR
+[vrChanges]
+	#Distance à laquelle les creepers gonflent et explosent pour les joueurs en VR Position debout. 
+	#Distance par défaut Vanilla : 3
+	# default: 1.75, min: 0.10, max: 10.00
+	creeperSwellDistance = 1.75
+	#Ajuste la portée à laquelle les créatures peuvent utiliser des attaques de mêlée contre les joueurs en VR Position debout. 
+	#Il s’agit d’une réduction par rapport à la portée par défaut Vanilla de (0,8 blocs), donc 0,0 ne provoque aucun changement, et -0,7 signifie que les créatures doivent presque toucher le joueur pour attaquer. 
+	#Lorsque la valeur est très faible, les créatures peuvent s’arrêter juste devant le joueur sans attaquer !
+	# default: -0.40, min: -0.70, max: 0.00
+	mobAttackRangeAdjustment = -0.4
+	#Permet aux joueurs en VR de frapper/miner avec les objets dans leur main non dominante.
+	dualWielding = true
+	#Ajout de dégâts de mêlée pour les joueurs en VR lorsqu’ils frappent avec leurs pieds.
+	#Cela s’adapte à l’attribut d’armure des bottes, infligeant un dégât supplémentaire par niveau d’armure, multiplié par ce multiplicateur.
+	#Mettre à 0.0 pour désactiver.
+	# default: 0.00, min: 0.00, max: 5.00
+	bootsArmorDamage = 0.0
+	#Les projectiles ont par défaut une imprécision pour ne pas toujours tirer dans la même direction.
+	#Avec ce paramètre, l’imprécision peut être ajustée pour les joueurs en VR.
+	#1.0 correspond au comportement vanilla, 0.0 signifie aucune imprécision.
+	# default: 1.00, min: 0.00, max: 1.00
+	projectileInaccuracyMultiplier = 1.0
+	#Permet aux joueurs en VR de contourner la vérification vanilla de destruction de blocs, 
+	#qui empêche de casser les blocs trop rapidement.
+	allowFasterBlockBreaking = true
+	#Permet aux joueurs VR de bloquer les attaques en tenant leur bouclier levé, sans avoir besoin de l’utiliser activement. Cela signifie qu’ils peuvent bloquer les attaques sans ralentir.
+	allowRoomscaleShieldBlocking = true
+	#Permet aux joueurs VR d’attaquer des entités tout en utilisant activement un bouclier. (Ce paramètre n’affecte pas le blocage en roomscale)
+	allowAttacksWhileBlocking = true
+
+	#Ajustements des dégâts de l’arc
+	[vrChanges.bow]
+		#Multiplicateur de dégâts à l’arc pour les joueurs en VR en mode debout.
+		#Mettre à 1.0 pour désactiver.
+		# default: 2.00, min: 1.00, max: 10.00
+		standingMultiplier = 2.0
+		#Multiplicateur de dégâts à l’arc pour les joueurs en VR en mode assis.
+		#Mettre à 1.0 pour désactiver.
+		# default: 1.00, min: 1.00, max: 10.00
+		seatedMultiplier = 1.0
+		#Multiplicateur de dégâts pour les tirs à la tête des joueurs en VR en mode debout.
+		#Mettre à 1.0 pour désactiver.
+		# default: 3.00, min: 1.00, max: 10.00
+		standingHeadshotMultiplier = 3.0
+		#Multiplicateur de dégâts pour les tirs à la tête des joueurs en VR en mode assis.
+		#Mettre à 1.0 pour désactiver.
+		# default: 2.00, min: 1.00, max: 10.00
+		seatedHeadshotMultiplier = 2.0
+		#Multiplicateur de dégâts pour les tirs à la tête des joueurs Vanilla/Non-VR.
+		#Mettre à 1.0 pour désactiver.
+		# default: 1.00, min: 1.00, max: 10.00
+		vanillaHeadshotMultiplier = 1.0
+		#Indicateur pour notifier les joueurs qu’ils ont réussi un tir à la tête. Options : 
+		#"NONE" : Aucun indicateur. 
+		#"AUDIO" : Joue un son près du tireur. 
+		#"VISUAL" : Fait apparaître des particules à l’endroit touché. 
+		#"BOTH" : Indicateurs audio et visuel.
+		headshotIndicator = "BOTH"
+
+#Paramètres PVP
+[pvp]
+	#Notifie le joueur qui a essayé de causer des dégâts que cela a été bloqué par le serveur.
+	notifyBlockedDamage = false
+	#Permet aux joueurs VR en mode debout de s’infliger des dégâts mutuellement.
+	VRvsVR = true
+	#Permet aux joueurs VR en mode assis de s’infliger des dégâts mutuellement.
+	SEATEDVRvsSEATEDVR = true
+	#Permet aux joueurs VR en mode debout et aux joueurs non VR de s’infliger des dégâts mutuellement.
+	VRvsNONVR = true
+	#Permet aux joueurs VR en mode assis et aux joueurs non VR de s’infliger des dégâts mutuellement.
+	SEATEDVRvsNONVR = true
+	#Permet aux joueurs VR en mode debout et en mode assis de s’infliger des dégâts mutuellement.
+	VRvsSEATEDVR = true
+
+#Paramètres de mouvement Climbey
+[climbey]
+	#Permet l’utilisation des « Jump Boots » et des « Climb Claws ».
+	enabled = true
+	#Spécifie comment les blocs dans la liste de blocs sont interprétés. Options :
+	#"DÉSACTIVÉ" : la liste est ignorée. Tous les blocs sont escaladables.
+	#"LISTE BLANCHE" : seuls les blocs de la liste sont escaladables.
+	#"LISTE NOIRE" : tous les blocs sont escaladables sauf ceux de la liste.
+	blockmode = "DISABLED"
+	#Liste des noms de blocs à utiliser avec les modes de bloc LISTE BLANCHE/LISTE NOIRE.
+	#Les blocs peuvent être sous la forme 'blockid' pour vanilla ou 'modid:blockid' pour les blocs moddés.
+	blocklist = ["white_wool", "dirt", "grass_block"]
+
+#Paramètres de rampement en Roomscale
+[crawling]
+	#Permet aux joueurs VR de passer en état de ramper en se baissant près du sol. 
+	#La désactivation ne bloque pas le ramper vanilla.
+	enabled = true
+
+#Paramètres de téléportation
+[teleport]
+	#Permet aux joueurs VR d’utiliser le déplacement par téléportation. 
+	#Il est recommandé de laisser cette option activée pour les joueurs sujets au mal des transports en VR.
+	enabled = true
+	#Impose une portée et une fréquence limitées pour la Teleportation en mode Survie.
+	limitedSurvival = false
+	#Nombre maximum de blocs vers le haut que les joueurs en mode Survie peuvent se téléporter.
+	#Mettre à 0 pour désactiver.
+	# default: 4, min: 1, max: 16
+	upLimit = 4
+	#Nombre maximum de blocs vers le bas que les joueurs en mode Survie peuvent Teleportation. 
+	#Mettre à 0 pour désactiver.
+	# default: 4, min: 1, max: 16
+	downLimit = 4
+	#Nombre maximum de blocs horizontalement que les joueurs en mode Survie peuvent Teleportation. 
+	#Mettre à 0 pour désactiver.
+	# default: 16, min: 1, max: 32
+	horizontalLimit = 16
+
+#Paramètres d’échelle du monde
+[worldScale]
+	#Limite la plage des échelles du monde que les joueurs sont autorisés à utiliser.
+	limitRange = false
+	#Limite inférieure de l’échelle du monde autorisée.
+	# default: 0.50, min: 0.10, max: 100.00
+	min = 0.5
+	#Limite supérieure de l’échelle du monde autorisée.
+	# default: 2.00, min: 0.10, max: 100.00
+	max = 2.0
+
+#Autres remplacements des paramètres client
+[settingOverrides]
+	#Force les joueurs à utiliser le réglage « Positions brutes des objets ».
+	thirdPersonItems = false
+	#Force les joueurs à utiliser le réglage « Positions brutes des objets », uniquement pour les objets avec des données de modèle personnalisées/modèles d’objets personnalisés.
+	thirdPersonItemsCustom = false
+
+#Paramètres de changement rapide VR
+[vrSwitching]
+	#Permet aux joueurs de passer de la VR au Non-VR à la volée.
+	#Si désactivé, ils seront verrouillés dans le mode avec lequel ils ont rejoint.
+	enabled = true
+
+#Paramètres de débogage
+[debug]
+	#Génère des particules aux positions des appareils des joueurs VR, pour indiquer l’état des données VR côté serveur.
+	debugParticles = false
+	#Génère des particules à la position de la tête des joueurs VR, pour indiquer l’état des données VR côté serveur.
+	debugParticlesHead = false
+
